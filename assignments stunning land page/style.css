@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color:white;
+    overflow: hidden;
+    padding: 30px;
+    
+}
+.data{
+ display: flex;
+ flex-grow: 1;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+}
+.loki{
+text-decoration: none;
+color: lightgrey;
+margin: 12px;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#five{
+    background-color: #FFD8DB ;
+    border-radius: 16px;
+    color: #8071D0;
+    padding: 14px;
+    margin-bottom: 23px;
+    
+}
+
+.akka{
+    font-size: 50px;
+}
+.para{
+    font-weight: 100;
+    line-height: 2;
+}
+#btnnn{
+    background-color:#5243C0;
+    color:#ffffff;
+    padding: 20px;
+    border-radius: 16px;
+    margin-left: 23px;
+}
+.dadd{
+    display: flex;
+    flex-direction: row;
+    margin-top: 23px;
+}
+#card1{
+display: flex;
+flex-direction: row;
+padding: 23px;
+justify-content: space-around;
+align-items: center;
+cursor: pointer;
+}
+#gradient1{
+width: 55px;
+height: 23px;
+background-color: pink;
+border-radius: 9px;
+}
+#card2{
+    display: flex;
+    flex-direction: row;
+    padding: 23px;
+    justify-content: space-around;
+    align-items: center;
+    
+    cursor: pointer;
+    }
+    #gradient2{
+        width: 55px;
+        height: 23px;
+        background-color:#FD6534;
+        border-radius: 9px;
+    }
+    #card3{
+        display: flex;
+        flex-direction: row;
+        padding: 23px;
+        justify-content: space-around;
+        align-items: center;
+        cursor: pointer;
+        }
+        #gradient3{
+            width: 55px;
+            height: 23px;
+            border-radius: 9px;
+            background-color: #9ED095;
+        }
+        #card4{
+            display: flex;
+            flex-direction: row;
+            padding: 23px;
+            justify-content: space-around;
+            align-items: center;
+            cursor: pointer;
+            }
+            #gradient4{
+                width: 55px;
+                height: 23px;
+                border-radius: 9px;
+                background-color: #FFE4A0;
+            }
+.loki:hover{
+    text-decoration: underline;
+    color: blue;
+    padding: 12px;
+
+}
+.dad :hover{
+    background-color: lightgoldenrodyellow;
+    color: blue;
+    padding: 23px;
+}
+.dad:hover .images{
+    display: none;
+}
+.dad:hover .images1{
+    display: inline;
+}
+.images1{
+    display: none;
+}
